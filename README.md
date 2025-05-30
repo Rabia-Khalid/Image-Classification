@@ -1,1 +1,2 @@
-# Image-Classification
+# Image Classification using SVM 
+This project implements a binary image classifier using Support Vector Machine (SVM) to distinguish between "empty" and "not_empty" images. Images are preprocessed by resizing to 15×15 pixels and flattened into feature vectors. The classifier is trained using scikit-learn’s SVC with hyperparameter tuning via GridSearchCV. Model performance is evaluated using accuracy score, confusion matrix, and classification report, with visualization of results for clear analysis.
